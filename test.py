@@ -1,2 +1,4 @@
-x= int(0.01 * 100)
-print(x)
+import pygal.maps.world as pym
+from pygal.maps.world import COUNTRIES
+
+print(COUNTRIES)
