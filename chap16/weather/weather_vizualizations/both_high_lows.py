@@ -43,8 +43,8 @@ def plot_data(filenames):
         plt.plot(dates, lows, c='blue', alpha=0.5)
         plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
-filenames = ['chap16\\weather_data\\sitka_weather_2018_full.csv', 
-    'chap16\\weather_data\\death_valley_2018_full.csv']
+filenames = ['chap16\\weather\\weather_data\\sitka_weather_2018_full.csv', 
+    'chap16\\weather\\weather_data\\death_valley_2018_full.csv']
 
 plot_data(filenames)
 
